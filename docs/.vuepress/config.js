@@ -144,7 +144,81 @@ module.exports = {
               '/zh/about/showcase',
               '/zh/about/tutorials'
             ]
+          },
+          {
+            title: '指南',
+            children: [
+              '/zh/guides/start',
+              '/zh/guides/installation',
+              '/zh/guides/machines',
+              '/zh/guides/states',
+              '/zh/guides/statenodes'
+              // '/guides/events',
+              // '/guides/transitions',
+              // '/guides/hierarchical',
+              // '/guides/parallel',
+              // '/guides/effects',
+              // '/guides/actions',
+              // '/guides/guards',
+              // '/guides/context',
+              // '/guides/activities',
+              // '/guides/communication',
+              // '/guides/actors',
+              // '/guides/delays',
+              // '/guides/final',
+              // '/guides/history',
+              // '/guides/ids',
+              // '/guides/interpretation',
+              // '/guides/typescript'
+            ]
           }
+          // {
+          //   title: 'Tutorials',
+          //   children: [
+          //     '/tutorials/reddit',
+          //     {
+          //       title: '7GUIs',
+          //       children: [
+          //         '/tutorials/7guis/counter',
+          //         '/tutorials/7guis/temperature',
+          //         '/tutorials/7guis/flight',
+          //         '/tutorials/7guis/timer'
+          //       ]
+          //     }
+          //   ]
+          // },
+          // {
+          //   title: 'Recipes',
+          //   children: [
+          //     '/recipes/react',
+          //     '/recipes/vue',
+          //     '/recipes/rxjs',
+          //     '/recipes/ember'
+          //   ]
+          // },
+          // {
+          //   title: 'Packages',
+          //   children: [
+          //     'packages/xstate-react/',
+          //     'packages/xstate-vue/',
+          //     'packages/xstate-graph/',
+          //     'packages/xstate-fsm/',
+          //     'packages/xstate-test/',
+          //     'packages/xstate-immer/'
+          //   ]
+          // },
+          // {
+          //   title: 'Patterns',
+          //   children: ['/patterns/sequence']
+          // },
+          // {
+          //   title: 'Examples',
+          //   children: [
+          //     '/examples/counter',
+          //     '/examples/todomvc',
+          //     '/examples/calculator'
+          //   ]
+          // }
         ]
       }
     }
